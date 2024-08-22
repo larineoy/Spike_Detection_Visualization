@@ -5,7 +5,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Path to the image file
-image_path = '/Users/larineouyang/GitHub/Spike_Detection_Visualization/spike_detection_result/m_annotation/spike_detection_4570178-1_20220218_143504.png'
+image_path = '/Users/larineouyang/GitHub/Spike_Detection_Visualization/spike_detection_result/m_annotation/**spike_detection_4570178-1_20220218_143504.png'
 
 # Load the image using OpenCV
 image = cv2.imread(image_path)
